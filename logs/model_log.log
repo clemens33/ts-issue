@@ -1,0 +1,975 @@
+2021-07-03 15:37:48,301 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2021-07-03 15:37:48,301 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - [PID]38
+2021-07-03 15:37:48,301 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Torch worker started.
+2021-07-03 15:37:48,301 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Python runtime: 3.6.9
+2021-07-03 15:37:48,302 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9002
+2021-07-03 15:37:48,303 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - [PID]36
+2021-07-03 15:37:48,303 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Torch worker started.
+2021-07-03 15:37:48,303 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Python runtime: 3.6.9
+2021-07-03 15:37:48,307 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9001
+2021-07-03 15:37:48,307 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - [PID]37
+2021-07-03 15:37:48,308 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Torch worker started.
+2021-07-03 15:37:48,308 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Python runtime: 3.6.9
+2021-07-03 15:37:48,318 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2021-07-03 15:37:48,318 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9001.
+2021-07-03 15:37:48,318 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9002.
+2021-07-03 15:37:48,346 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - loaded modules: ['BaseHandler', 'Dict', 'List', 'Namespace', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'logger', 'logging', 'os', 'sys']
+2021-07-03 15:37:48,346 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - loaded modules: ['BaseHandler', 'Dict', 'List', 'Namespace', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'logger', 'logging', 'os', 'sys']
+2021-07-03 15:37:48,346 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - pid: 36
+2021-07-03 15:37:48,346 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - oscwd: /home/model-server/tmp/models/c404e8423c014d3abf53526f49c7a1a5
+2021-07-03 15:37:48,346 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - pid: 38
+2021-07-03 15:37:48,347 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - ppid: 10
+2021-07-03 15:37:48,347 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - oscwd: /home/model-server/tmp/models/c404e8423c014d3abf53526f49c7a1a5
+2021-07-03 15:37:48,347 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - interpreter: /home/venv/bin/python3
+2021-07-03 15:37:48,347 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - ppid: 10
+2021-07-03 15:37:48,347 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - interpreter: /home/venv/bin/python3
+2021-07-03 15:37:48,348 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - loaded modules: ['BaseHandler', 'Dict', 'List', 'Namespace', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'logger', 'logging', 'os', 'sys']
+2021-07-03 15:37:48,348 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - pid: 37
+2021-07-03 15:37:48,348 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - oscwd: /home/model-server/tmp/models/c404e8423c014d3abf53526f49c7a1a5
+2021-07-03 15:37:48,348 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - ppid: 10
+2021-07-03 15:37:48,348 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - interpreter: /home/venv/bin/python3
+2021-07-03 15:37:57,033 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 1
+2021-07-03 15:38:20,364 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:20,369 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:20,411 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:20,450 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:20,550 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 227
+2021-07-03 15:38:20,575 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:20,614 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:20,640 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:20,741 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 232
+2021-07-03 15:38:20,763 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:20,800 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:20,830 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:20,943 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:20,987 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,015 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,059 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,101 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,146 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,210 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,234 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,273 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,329 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,366 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,421 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,487 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,512 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,558 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,625 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,649 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,689 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,742 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,809 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,828 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,873 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,947 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:21,969 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,011 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,059 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,117 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,143 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,180 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,226 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,256 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,313 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,372 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,395 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,441 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,500 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,526 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,570 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,632 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,654 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,699 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,763 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,795 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,841 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,884 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,918 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:22,960 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,022 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,041 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,086 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,150 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,170 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,214 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,275 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,301 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,345 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,408 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,426 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,471 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,532 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,556 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,603 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,645 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,686 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,729 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,786 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,810 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,853 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,913 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,934 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:23,979 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,036 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,059 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,105 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,162 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,186 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,236 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,297 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,317 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,360 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,427 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,446 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,506 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,570 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,589 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,636 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,713 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,718 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,755 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,830 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,872 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,891 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:24,939 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,001 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,023 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,059 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,105 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,169 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,186 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,234 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,296 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,314 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,371 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,431 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,453 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,488 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,533 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,595 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,618 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,665 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,732 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,757 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,778 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Backend worker process died.
+2021-07-03 15:38:25,778 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2021-07-03 15:38:25,778 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 182, in <module>
+2021-07-03 15:38:25,778 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     worker.run_server()
+2021-07-03 15:38:25,778 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 154, in run_server
+2021-07-03 15:38:25,778 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2021-07-03 15:38:25,778 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 109, in handle_connection
+2021-07-03 15:38:25,778 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     cmd, msg = retrieve_msg(cl_socket)
+2021-07-03 15:38:25,778 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 30, in retrieve_msg
+2021-07-03 15:38:25,778 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     cmd = _retrieve_buffer(conn, 1)
+2021-07-03 15:38:25,779 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 161, in _retrieve_buffer
+2021-07-03 15:38:25,779 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     pkt = conn.recv(length)
+2021-07-03 15:38:25,779 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - ConnectionResetError: [Errno 104] Connection reset by peer
+2021-07-03 15:38:25,808 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,847 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,929 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:25,979 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,037 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,081 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,105 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,145 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,187 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,229 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,294 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,321 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,358 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,422 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,454 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,486 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,526 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,593 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,610 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,652 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,727 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,749 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,791 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,837 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,901 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:26,923 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:27,036 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 232
+2021-07-03 15:38:27,154 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9002
+2021-07-03 15:38:27,155 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - [PID]178
+2021-07-03 15:38:27,155 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Torch worker started.
+2021-07-03 15:38:27,155 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Python runtime: 3.6.9
+2021-07-03 15:38:27,156 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9002.
+2021-07-03 15:38:27,163 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - loaded modules: ['BaseHandler', 'Dict', 'List', 'Namespace', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'logger', 'logging', 'os', 'sys']
+2021-07-03 15:38:27,163 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - pid: 178
+2021-07-03 15:38:27,163 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - oscwd: /home/model-server/tmp/models/c404e8423c014d3abf53526f49c7a1a5
+2021-07-03 15:38:27,163 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - ppid: 10
+2021-07-03 15:38:27,163 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - interpreter: /home/venv/bin/python3
+2021-07-03 15:38:28,339 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:28,423 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:28,450 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:28,493 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:28,511 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Backend worker process died.
+2021-07-03 15:38:28,511 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2021-07-03 15:38:28,511 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 182, in <module>
+2021-07-03 15:38:28,511 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     worker.run_server()
+2021-07-03 15:38:28,511 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 154, in run_server
+2021-07-03 15:38:28,512 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2021-07-03 15:38:28,512 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 109, in handle_connection
+2021-07-03 15:38:28,512 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     cmd, msg = retrieve_msg(cl_socket)
+2021-07-03 15:38:28,512 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 30, in retrieve_msg
+2021-07-03 15:38:28,512 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     cmd = _retrieve_buffer(conn, 1)
+2021-07-03 15:38:28,512 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 161, in _retrieve_buffer
+2021-07-03 15:38:28,512 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     pkt = conn.recv(length)
+2021-07-03 15:38:28,512 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - ConnectionResetError: [Errno 104] Connection reset by peer
+2021-07-03 15:38:28,563 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:28,588 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:28,668 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:28,716 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:28,777 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:28,811 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:28,828 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:28,880 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:28,941 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:28,967 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,011 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,074 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,096 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,139 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,198 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,222 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,261 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,322 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,348 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,393 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,449 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,476 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,514 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,560 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,621 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,646 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,686 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,733 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,804 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,836 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,888 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,941 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9001
+2021-07-03 15:38:29,941 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - [PID]204
+2021-07-03 15:38:29,941 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Torch worker started.
+2021-07-03 15:38:29,941 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Python runtime: 3.6.9
+2021-07-03 15:38:29,943 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9001.
+2021-07-03 15:38:29,948 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - loaded modules: ['BaseHandler', 'Dict', 'List', 'Namespace', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'logger', 'logging', 'os', 'sys']
+2021-07-03 15:38:29,949 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - pid: 204
+2021-07-03 15:38:29,949 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - oscwd: /home/model-server/tmp/models/c404e8423c014d3abf53526f49c7a1a5
+2021-07-03 15:38:29,949 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - ppid: 10
+2021-07-03 15:38:29,949 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - interpreter: /home/venv/bin/python3
+2021-07-03 15:38:29,959 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:29,978 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,021 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,086 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,105 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,156 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,223 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,234 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,276 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,361 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,363 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,403 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,492 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,494 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,537 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,622 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,626 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,660 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,728 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,750 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,790 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,853 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,884 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,925 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:30,978 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,005 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,055 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,109 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,185 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,200 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,242 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,308 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,330 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,369 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,387 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Backend worker process died.
+2021-07-03 15:38:31,387 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2021-07-03 15:38:31,387 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 182, in <module>
+2021-07-03 15:38:31,387 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     worker.run_server()
+2021-07-03 15:38:31,387 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 154, in run_server
+2021-07-03 15:38:31,387 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2021-07-03 15:38:31,387 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 109, in handle_connection
+2021-07-03 15:38:31,387 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     cmd, msg = retrieve_msg(cl_socket)
+2021-07-03 15:38:31,387 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 30, in retrieve_msg
+2021-07-03 15:38:31,387 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     cmd = _retrieve_buffer(conn, 1)
+2021-07-03 15:38:31,387 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 161, in _retrieve_buffer
+2021-07-03 15:38:31,387 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     pkt = conn.recv(length)
+2021-07-03 15:38:31,387 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - ConnectionResetError: [Errno 104] Connection reset by peer
+2021-07-03 15:38:31,444 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,462 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,541 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,580 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,644 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,695 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,741 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,768 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,804 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,871 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,891 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,933 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:31,997 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,017 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,055 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,133 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,145 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,184 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,254 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,272 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,313 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,378 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,408 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,441 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,486 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,546 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,571 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,608 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,654 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,711 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,765 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,798 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2021-07-03 15:38:32,798 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - [PID]231
+2021-07-03 15:38:32,798 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Torch worker started.
+2021-07-03 15:38:32,798 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Python runtime: 3.6.9
+2021-07-03 15:38:32,799 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2021-07-03 15:38:32,806 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - loaded modules: ['BaseHandler', 'Dict', 'List', 'Namespace', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'logger', 'logging', 'os', 'sys']
+2021-07-03 15:38:32,806 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - pid: 231
+2021-07-03 15:38:32,806 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - oscwd: /home/model-server/tmp/models/c404e8423c014d3abf53526f49c7a1a5
+2021-07-03 15:38:32,806 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - ppid: 10
+2021-07-03 15:38:32,806 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - interpreter: /home/venv/bin/python3
+2021-07-03 15:38:32,830 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,849 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,895 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,958 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:32,977 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,016 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,061 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,121 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,148 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,190 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,248 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,274 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,274 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Backend worker process died.
+2021-07-03 15:38:33,274 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2021-07-03 15:38:33,274 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 182, in <module>
+2021-07-03 15:38:33,274 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     worker.run_server()
+2021-07-03 15:38:33,274 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 154, in run_server
+2021-07-03 15:38:33,274 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2021-07-03 15:38:33,274 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 109, in handle_connection
+2021-07-03 15:38:33,274 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     cmd, msg = retrieve_msg(cl_socket)
+2021-07-03 15:38:33,274 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 30, in retrieve_msg
+2021-07-03 15:38:33,274 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     cmd = _retrieve_buffer(conn, 1)
+2021-07-03 15:38:33,274 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 161, in _retrieve_buffer
+2021-07-03 15:38:33,274 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     pkt = conn.recv(length)
+2021-07-03 15:38:33,274 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - ConnectionResetError: [Errno 104] Connection reset by peer
+2021-07-03 15:38:33,305 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,389 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,435 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,503 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,547 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,572 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,608 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,669 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,693 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,745 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,809 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,829 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,871 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,929 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,954 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:33,997 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,066 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,078 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,120 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,210 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,212 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,254 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,317 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,342 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,388 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,448 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,474 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,528 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,601 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,640 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,668 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,676 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9002
+2021-07-03 15:38:34,676 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - [PID]253
+2021-07-03 15:38:34,676 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Torch worker started.
+2021-07-03 15:38:34,676 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Python runtime: 3.6.9
+2021-07-03 15:38:34,678 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9002.
+2021-07-03 15:38:34,682 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - loaded modules: ['BaseHandler', 'Dict', 'List', 'Namespace', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'logger', 'logging', 'os', 'sys']
+2021-07-03 15:38:34,682 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - pid: 253
+2021-07-03 15:38:34,682 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - oscwd: /home/model-server/tmp/models/c404e8423c014d3abf53526f49c7a1a5
+2021-07-03 15:38:34,682 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - ppid: 10
+2021-07-03 15:38:34,682 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - interpreter: /home/venv/bin/python3
+2021-07-03 15:38:34,715 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,777 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,799 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,834 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,879 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,942 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:34,963 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,005 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,074 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,098 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,135 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,213 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,253 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,277 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,320 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,361 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,425 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,444 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,483 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,524 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,585 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,687 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 232
+2021-07-03 15:38:35,849 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,932 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:35,964 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,010 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,071 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,093 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,138 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,201 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,225 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,260 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,326 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,345 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,386 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,453 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,473 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,519 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,565 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,622 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,642 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,689 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,752 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,771 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,812 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,876 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,894 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:36,997 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 232
+2021-07-03 15:38:37,999 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,087 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,119 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,168 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,228 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,246 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,292 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,362 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,374 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,416 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,456 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,519 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,543 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,581 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,646 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,673 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,717 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,773 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,798 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,839 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,904 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,922 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Backend worker process died.
+2021-07-03 15:38:38,922 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2021-07-03 15:38:38,922 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 182, in <module>
+2021-07-03 15:38:38,922 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     worker.run_server()
+2021-07-03 15:38:38,922 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 154, in run_server
+2021-07-03 15:38:38,922 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2021-07-03 15:38:38,922 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 109, in handle_connection
+2021-07-03 15:38:38,922 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     cmd, msg = retrieve_msg(cl_socket)
+2021-07-03 15:38:38,923 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 30, in retrieve_msg
+2021-07-03 15:38:38,923 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     cmd = _retrieve_buffer(conn, 1)
+2021-07-03 15:38:38,923 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 161, in _retrieve_buffer
+2021-07-03 15:38:38,924 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     pkt = conn.recv(length)
+2021-07-03 15:38:38,924 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - ConnectionResetError: [Errno 104] Connection reset by peer
+2021-07-03 15:38:38,931 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:38,971 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,047 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,091 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,145 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,206 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,211 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,257 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,337 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,344 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,375 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,453 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,490 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,515 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,545 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,630 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,662 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,687 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,734 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,775 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,803 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,890 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,919 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,942 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:39,990 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,050 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,069 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,117 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,184 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,213 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,252 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,316 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9001
+2021-07-03 15:38:40,316 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - [PID]276
+2021-07-03 15:38:40,316 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Torch worker started.
+2021-07-03 15:38:40,316 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Python runtime: 3.6.9
+2021-07-03 15:38:40,317 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9001.
+2021-07-03 15:38:40,322 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - loaded modules: ['BaseHandler', 'Dict', 'List', 'Namespace', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'logger', 'logging', 'os', 'sys']
+2021-07-03 15:38:40,322 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - pid: 276
+2021-07-03 15:38:40,322 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - oscwd: /home/model-server/tmp/models/c404e8423c014d3abf53526f49c7a1a5
+2021-07-03 15:38:40,322 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - ppid: 10
+2021-07-03 15:38:40,322 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - interpreter: /home/venv/bin/python3
+2021-07-03 15:38:40,341 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,375 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,384 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,423 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,512 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,514 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,545 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,609 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,638 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,680 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,748 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,769 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,811 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,877 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,897 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,938 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:40,981 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,045 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,066 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,111 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,153 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,171 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Backend worker process died.
+2021-07-03 15:38:41,171 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2021-07-03 15:38:41,171 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 182, in <module>
+2021-07-03 15:38:41,171 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     worker.run_server()
+2021-07-03 15:38:41,171 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 154, in run_server
+2021-07-03 15:38:41,171 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2021-07-03 15:38:41,171 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 109, in handle_connection
+2021-07-03 15:38:41,171 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     cmd, msg = retrieve_msg(cl_socket)
+2021-07-03 15:38:41,171 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 30, in retrieve_msg
+2021-07-03 15:38:41,171 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     cmd = _retrieve_buffer(conn, 1)
+2021-07-03 15:38:41,171 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 161, in _retrieve_buffer
+2021-07-03 15:38:41,172 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG -     pkt = conn.recv(length)
+2021-07-03 15:38:41,172 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - ConnectionResetError: [Errno 104] Connection reset by peer
+2021-07-03 15:38:41,190 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,252 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,324 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,372 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,423 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,466 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,502 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,541 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,607 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,622 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,666 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,729 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,750 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,795 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,843 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,909 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,929 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:41,961 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,034 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,068 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,089 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,138 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,198 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,218 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,264 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,330 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,361 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,426 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,456 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,505 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,549 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9001
+2021-07-03 15:38:42,549 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - [PID]299
+2021-07-03 15:38:42,550 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Torch worker started.
+2021-07-03 15:38:42,550 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Python runtime: 3.6.9
+2021-07-03 15:38:42,551 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9001.
+2021-07-03 15:38:42,555 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - loaded modules: ['BaseHandler', 'Dict', 'List', 'Namespace', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'logger', 'logging', 'os', 'sys']
+2021-07-03 15:38:42,555 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - pid: 299
+2021-07-03 15:38:42,555 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - oscwd: /home/model-server/tmp/models/c404e8423c014d3abf53526f49c7a1a5
+2021-07-03 15:38:42,555 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - ppid: 10
+2021-07-03 15:38:42,555 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - interpreter: /home/venv/bin/python3
+2021-07-03 15:38:42,569 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,588 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,634 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,699 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,720 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,759 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,831 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,850 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,887 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,957 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:42,977 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,012 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,062 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,125 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,148 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,191 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,227 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,278 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,342 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,366 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,405 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,475 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,488 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,527 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,598 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,619 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,662 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,733 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,758 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,801 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,866 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,886 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:43,933 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:44,000 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:44,022 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:44,057 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:44,102 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:44,149 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:44,210 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:44,234 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:44,333 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 232
+2021-07-03 15:38:45,144 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,226 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,265 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,307 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,369 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,391 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,440 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,501 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,521 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,571 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,628 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,654 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,700 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,764 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,788 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,842 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,870 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,913 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:45,978 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,001 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,042 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,106 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,126 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,167 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,232 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,254 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,298 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,362 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,385 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,476 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,548 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,552 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,591 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,644 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,708 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,732 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,777 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,836 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,861 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,901 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,963 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:46,986 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,029 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,092 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,113 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,161 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,230 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,246 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,291 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,355 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,371 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,421 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,489 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,501 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,508 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Backend worker process died.
+2021-07-03 15:38:47,508 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2021-07-03 15:38:47,508 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 182, in <module>
+2021-07-03 15:38:47,508 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     worker.run_server()
+2021-07-03 15:38:47,509 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 154, in run_server
+2021-07-03 15:38:47,509 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2021-07-03 15:38:47,509 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 109, in handle_connection
+2021-07-03 15:38:47,509 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     cmd, msg = retrieve_msg(cl_socket)
+2021-07-03 15:38:47,509 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 30, in retrieve_msg
+2021-07-03 15:38:47,509 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     cmd = _retrieve_buffer(conn, 1)
+2021-07-03 15:38:47,509 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 161, in _retrieve_buffer
+2021-07-03 15:38:47,509 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     pkt = conn.recv(length)
+2021-07-03 15:38:47,509 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - ConnectionResetError: [Errno 104] Connection reset by peer
+2021-07-03 15:38:47,542 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,625 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,667 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,717 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,778 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,839 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,846 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,884 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,957 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:47,977 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,021 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,084 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,106 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,156 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,228 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,234 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,270 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,365 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,372 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,406 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,479 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,505 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,550 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,613 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,635 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,672 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,702 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Backend worker process died.
+2021-07-03 15:38:48,702 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2021-07-03 15:38:48,702 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 182, in <module>
+2021-07-03 15:38:48,702 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     worker.run_server()
+2021-07-03 15:38:48,702 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 154, in run_server
+2021-07-03 15:38:48,702 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2021-07-03 15:38:48,703 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 109, in handle_connection
+2021-07-03 15:38:48,703 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     cmd, msg = retrieve_msg(cl_socket)
+2021-07-03 15:38:48,703 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 30, in retrieve_msg
+2021-07-03 15:38:48,703 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     cmd = _retrieve_buffer(conn, 1)
+2021-07-03 15:38:48,703 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 161, in _retrieve_buffer
+2021-07-03 15:38:48,703 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     pkt = conn.recv(length)
+2021-07-03 15:38:48,703 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - ConnectionResetError: [Errno 104] Connection reset by peer
+2021-07-03 15:38:48,754 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,829 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,902 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,913 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9002
+2021-07-03 15:38:48,913 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - [PID]324
+2021-07-03 15:38:48,913 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Torch worker started.
+2021-07-03 15:38:48,913 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Python runtime: 3.6.9
+2021-07-03 15:38:48,914 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9002.
+2021-07-03 15:38:48,922 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - loaded modules: ['BaseHandler', 'Dict', 'List', 'Namespace', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'logger', 'logging', 'os', 'sys']
+2021-07-03 15:38:48,922 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - pid: 324
+2021-07-03 15:38:48,922 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - oscwd: /home/model-server/tmp/models/c404e8423c014d3abf53526f49c7a1a5
+2021-07-03 15:38:48,922 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - ppid: 10
+2021-07-03 15:38:48,922 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - interpreter: /home/venv/bin/python3
+2021-07-03 15:38:48,935 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,941 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:48,990 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,082 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,090 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,132 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,215 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,216 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,256 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,338 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,344 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,378 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,452 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,489 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,514 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,561 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,621 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,645 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,688 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,751 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,770 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,816 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,915 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,917 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:49,968 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:50,022 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:50,086 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:50,094 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2021-07-03 15:38:50,094 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - [PID]346
+2021-07-03 15:38:50,094 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Torch worker started.
+2021-07-03 15:38:50,094 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Python runtime: 3.6.9
+2021-07-03 15:38:50,095 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2021-07-03 15:38:50,099 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - loaded modules: ['BaseHandler', 'Dict', 'List', 'Namespace', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'logger', 'logging', 'os', 'sys']
+2021-07-03 15:38:50,099 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - pid: 346
+2021-07-03 15:38:50,099 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - oscwd: /home/model-server/tmp/models/c404e8423c014d3abf53526f49c7a1a5
+2021-07-03 15:38:50,099 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - ppid: 10
+2021-07-03 15:38:50,099 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - interpreter: /home/venv/bin/python3
+2021-07-03 15:38:50,183 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 232
+2021-07-03 15:38:50,821 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:50,908 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:50,946 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:50,988 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,049 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,070 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,113 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,183 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,202 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,245 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,291 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,353 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,374 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,425 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,464 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,513 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,548 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,638 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,700 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,728 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,773 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,838 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,868 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,906 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,969 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:51,997 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,043 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,101 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,126 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,169 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,230 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,254 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,297 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,361 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,387 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,429 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,473 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,501 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,557 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,620 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,639 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,687 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,746 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,770 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,815 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,877 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,896 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:52,944 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,007 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,032 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,092 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,156 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,181 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,230 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,298 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,309 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,346 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,396 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,449 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,480 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,522 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,581 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,606 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,644 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,699 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,722 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,777 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,833 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,857 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,902 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:53,938 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,005 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,024 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,066 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,109 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,174 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,207 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,241 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,285 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,353 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,377 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,422 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,487 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,509 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,559 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,625 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,650 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:54,744 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 232
+2021-07-03 15:38:55,258 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,343 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,379 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,425 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,500 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,518 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,558 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,603 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,646 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,710 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,735 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,780 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,838 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,867 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,914 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:55,982 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:56,001 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Backend worker process died.
+2021-07-03 15:38:56,001 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2021-07-03 15:38:56,001 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 182, in <module>
+2021-07-03 15:38:56,001 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     worker.run_server()
+2021-07-03 15:38:56,001 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 154, in run_server
+2021-07-03 15:38:56,002 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2021-07-03 15:38:56,002 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 109, in handle_connection
+2021-07-03 15:38:56,002 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     cmd, msg = retrieve_msg(cl_socket)
+2021-07-03 15:38:56,002 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 30, in retrieve_msg
+2021-07-03 15:38:56,002 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     cmd = _retrieve_buffer(conn, 1)
+2021-07-03 15:38:56,002 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 161, in _retrieve_buffer
+2021-07-03 15:38:56,002 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG -     pkt = conn.recv(length)
+2021-07-03 15:38:56,002 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - ConnectionResetError: [Errno 104] Connection reset by peer
+2021-07-03 15:38:56,003 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:56,049 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:56,131 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:56,173 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:56,243 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:56,295 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:56,304 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:56,354 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:56,431 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:56,432 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:56,452 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Backend worker process died.
+2021-07-03 15:38:56,452 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2021-07-03 15:38:56,452 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 182, in <module>
+2021-07-03 15:38:56,452 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     worker.run_server()
+2021-07-03 15:38:56,452 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 154, in run_server
+2021-07-03 15:38:56,453 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2021-07-03 15:38:56,453 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/model_service_worker.py", line 109, in handle_connection
+2021-07-03 15:38:56,453 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     cmd, msg = retrieve_msg(cl_socket)
+2021-07-03 15:38:56,453 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 30, in retrieve_msg
+2021-07-03 15:38:56,453 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     cmd = _retrieve_buffer(conn, 1)
+2021-07-03 15:38:56,453 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.6/site-packages/ts/protocol/otf_message_handler.py", line 161, in _retrieve_buffer
+2021-07-03 15:38:56,453 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG -     pkt = conn.recv(length)
+2021-07-03 15:38:56,453 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - ConnectionResetError: [Errno 104] Connection reset by peer
+2021-07-03 15:38:56,473 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:56,537 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 256
+2021-07-03 15:38:56,673 [INFO ] W-9001-dummy_1.0-stdout MODEL_LOG - number of requests captured: 196
+2021-07-03 15:38:57,355 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9002
+2021-07-03 15:38:57,355 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - [PID]372
+2021-07-03 15:38:57,355 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Torch worker started.
+2021-07-03 15:38:57,355 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Python runtime: 3.6.9
+2021-07-03 15:38:57,355 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9002.
+2021-07-03 15:38:57,360 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - loaded modules: ['BaseHandler', 'Dict', 'List', 'Namespace', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'logger', 'logging', 'os', 'sys']
+2021-07-03 15:38:57,360 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - pid: 372
+2021-07-03 15:38:57,360 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - oscwd: /home/model-server/tmp/models/c404e8423c014d3abf53526f49c7a1a5
+2021-07-03 15:38:57,360 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - ppid: 10
+2021-07-03 15:38:57,360 [INFO ] W-9002-dummy_1.0-stdout MODEL_LOG - interpreter: /home/venv/bin/python3
+2021-07-03 15:38:57,781 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2021-07-03 15:38:57,781 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - [PID]396
+2021-07-03 15:38:57,781 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Torch worker started.
+2021-07-03 15:38:57,781 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Python runtime: 3.6.9
+2021-07-03 15:38:57,782 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2021-07-03 15:38:57,787 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - loaded modules: ['BaseHandler', 'Dict', 'List', 'Namespace', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'logger', 'logging', 'os', 'sys']
+2021-07-03 15:38:57,787 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - pid: 396
+2021-07-03 15:38:57,787 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - oscwd: /home/model-server/tmp/models/c404e8423c014d3abf53526f49c7a1a5
+2021-07-03 15:38:57,787 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - ppid: 10
+2021-07-03 15:38:57,787 [INFO ] W-9000-dummy_1.0-stdout MODEL_LOG - interpreter: /home/venv/bin/python3
