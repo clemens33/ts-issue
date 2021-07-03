@@ -1,0 +1,4 @@
+torch-model-archiver
+torchserve
+aiohttp
+pandas
